@@ -7,5 +7,7 @@ public class PersonApp {
         System.out.println(person.name);
         System.out.println(person.address);
         System.out.println(person.country);
+
+        person.sayHello("Aulia");
     }
 }
