@@ -4,8 +4,8 @@ public class ManagerApp {
         manager.name = "Fairuz";
         manager.sayHello("Aulia");
 
-        vicePresident vicePresident = new vicePresident();
-        vicePresident.name = "Aulia";
-        vicePresident.sayHello("Fairuz");
+        vicePresident vp = new vicePresident();
+        vp.name = "Aulia";
+        vp.sayHello("Fairuz");
     }
 }
